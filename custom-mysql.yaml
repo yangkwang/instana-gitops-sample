@@ -1,0 +1,4 @@
+com.instana.plugin.mysql:
+  user: 'instana_mon_user'
+  password: ''
+  schema_excludes: ['INFORMATION_SCHEMA', 'PERFORMANCE_SCHEMA']
