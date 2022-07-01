@@ -1,4 +1,7 @@
 com.instana.plugin.mysql:
   user: 'instana_mon_user'
-  password: 'Instana_mon_pwd1'
+  password:
+    configuration_from:
+      type: env
+      env_name: INSTANA_MYSQL_USER
   schema_excludes: ['INFORMATION_SCHEMA', 'PERFORMANCE_SCHEMA']
