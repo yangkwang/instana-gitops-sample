@@ -1,6 +1,6 @@
 com.instana.plugin.javatrace:
   instrumentation:
-    # By default no packages are scanned for SDK annotations. Testing
+    # By default no packages are scanned for SDK annotations. Testing 1234
     sdk:
       packages:
         - 'app.controller'
